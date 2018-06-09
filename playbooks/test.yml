@@ -6,4 +6,4 @@
   tasks:
 
         - name:         Test Playbook
-          service:      name=ntpd state=started      
+          service:      name=ntpd state=present      
