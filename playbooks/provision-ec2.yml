@@ -2,6 +2,7 @@
  - hosts: localhost
    connection: local
    gather_facts: false
+   become: false     
    user: ansible
    pre_tasks:
     - include_vars: ec2-vars/webservers.yml
