@@ -4,6 +4,6 @@
    gather_facts: false
    user: root
    pre_tasks:
-    - include_vars: ec2_vars/webservers.yml
+    - include_vars: ec2-vars/webservers.yml
    roles:
     - provision-ec2
