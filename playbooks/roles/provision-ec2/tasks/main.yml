@@ -2,6 +2,8 @@
  - name: Provision EC2 Box
    local_action:
      module: ec2
+     aws_access_key: "AKIAIBWVDIOAIPT5LTBQ"
+     aws_secret_key: "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"
      key_name: "{{ ec2_keypair }}"
      group_id: "{{ ec2_security_group }}"
      instance_type: "{{ ec2_instance_type }}"
