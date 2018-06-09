@@ -6,4 +6,4 @@
   tasks:
 
         - name:         Test Playbook
-          command:      hostname
+          command:      mkdir /home/ansible/testdir-semaphore
