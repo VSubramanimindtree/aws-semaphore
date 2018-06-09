@@ -1,9 +1,9 @@
 ---
-- hosts:        localhost
+- hosts:        test
   connection:   local
   gather_facts: False
 
   tasks:
 
         - name:         Test Playbook
-          service:      name=ntpd state=present      
+          command:      hostname
