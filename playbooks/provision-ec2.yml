@@ -2,7 +2,7 @@
  - hosts: localhost
    connection: local
    gather_facts: false
-   user: root
+   user: apache
    pre_tasks:
     - include_vars: ec2-vars/webservers.yml
    roles:
