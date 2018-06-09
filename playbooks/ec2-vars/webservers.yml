@@ -1,0 +1,10 @@
+ec2_keypair: "Ansible-semaphore"
+ec2_security_group: "sg-37baab4e"
+ec2_instance_type: "t2.micro"
+ec2_image: "ami-76144b0a"
+ec2_subnet_ids: ['subnet-966ed0f2']
+ec2_region: "ap-south-east-1"
+ec2_tag_Name: "Webserver"
+ec2_tag_Type: "webserver"
+ec2_tag_Environment: "Mindtree"
+ec2_volume_size: 16
